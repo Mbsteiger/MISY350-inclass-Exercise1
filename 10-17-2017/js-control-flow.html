@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset= "utf">
+  <title> Js Control FLow Exercise </title>
+  <script>
+  let myName= "Matthew Steiger"
+  console.log("My Name is "+myName+".");
+  console.log("My Name has "+ myName.length+ " Characters");
+  </script>
+</head>
+<body>
+<h1>See Console for outputs</h1>
+<script>
+let pi= 3.145;
+console.log(Math.random()* Math.floor(pi));
+
+//Grade Calculator
+let grade= 84;
+let letter_grade;
+if (grade>=90){
+  let letter_grade="A";
+}
+else if (grade>=80){
+  let letter_grade="B";
+}
+else if (grade>=70){
+  let letter_grade="C";
+}
+else if (grade>=60){
+  let letter_grade="D";
+}
+else{
+  let letter_grade= "F";
+}
+console.log(letter_grade);
+
+let word_count=12;
+if (word_count){
+  console.log("not 0");
+}else{
+  console.log("word count is not 0")
+}
+word_count ? console.log("ternary not 0")
+
+
+
+
+</script>
+</body>
+</html>
